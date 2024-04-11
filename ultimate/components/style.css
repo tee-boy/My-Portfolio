@@ -177,6 +177,7 @@ a > ion-icon:hover {
 height: 70vh;
 border-radius: 20% 2% 20% 2%;
 transform: rotate(15deg);
+z-index: -1000vh;
 }
 .about-img-card > img:hover {
     transform: rotate(0deg);
@@ -344,7 +345,7 @@ span > icon-ion {
   
   #menu a {
     position: relative;
-    display: block;
+    /* display: block; */
     padding: 10px;
   }
   

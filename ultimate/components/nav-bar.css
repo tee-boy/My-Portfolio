@@ -1,0 +1,12 @@
+section {
+    position: relative;
+}
+nav {
+    position: absolute;
+    position: fixed;
+    bottom: 100%;
+    width: 70%;
+    height: auto;
+    background: var(--color-primary);
+}
+

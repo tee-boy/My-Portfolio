@@ -1,12 +1,29 @@
-section {
+body {
     position: relative;
 }
 nav {
     position: absolute;
     position: fixed;
-    bottom: 100%;
-    width: 70%;
+    display: flex;
+    top: 85%;
+    left: 0;
+    width: 30%;
     height: auto;
-    background: var(--color-primary);
+    margin: 90%;
+    background: var(--color-white);
+    justify-content: center;
+    /* justify-items: center; */
+    align-items: center;
+    z-index: 1vh;
+    border-radius: 20%;
+}
+.nav-list-wrapper {
+    display: flex;
+    gap: 3%;
+}
+.nav-list > a {
+    font-size: 150%;
+    border-radius: 100%;
 }
 
+ 

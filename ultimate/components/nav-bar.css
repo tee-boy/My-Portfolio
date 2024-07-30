@@ -4,26 +4,13 @@ body {
 nav {
     position: absolute;
     position: fixed;
-    display: flex;
-    top: 85%;
-    left: 0;
-    width: 30%;
-    height: auto;
-    margin: 90%;
-    background: var(--color-white);
-    justify-content: center;
-    /* justify-items: center; */
-    align-items: center;
-    z-index: 1vh;
-    border-radius: 20%;
+    bottom: 100vh;
+    width: max-content;
+    height: max-content;
 }
-.nav-list-wrapper {
-    display: flex;
-    gap: 3%;
-}
-.nav-list > a {
-    font-size: 150%;
+.nav-list {
     border-radius: 100%;
-}
-
- 
+    width: 30px;
+    height: 30px;
+    color: black;
+} 

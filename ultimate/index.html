@@ -3,12 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ultimate portifolio</title>
+    <title>Top_Dev</title>
     <link rel="stylesheet" href="./components/style.css">
-    <link rel="stylesheet" href="./components/responsive.css">
+    <link rel="stylesheet" href="ultimate/components/responsive.css">
     <link rel="stylesheet" href="./components/nav-bar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="animation.css">
 </head>
 <body>
+    <div class="line"
+    style="background: red;"></div>
     <nav>
         <ul class="nav-list-wrapper">
             <li class="nav-list"><a href=""><ion-icon name="logo-linkedin"></ion-icon></a></li>
@@ -18,17 +23,17 @@
         </ul>
     </nav>
     <section> 
-        <div class="home-content">
+        <div id="home-section" class="home-content">
             <h4>Hello I'm</h4>
             <h1>Tochukwu Emmanuel</h1>
             <h5>Frontend developer</h5>
             <div class="btn-wrapper">
-                <a href="" type="button" class="btn">Download Cv</a>
+                <a href="" type="button" class="btn" download="ultimate/components/TOCHUKWU EMMNAUEL KELECHI.pdf">Download Cv</a>
                 <a href="" type="button" class="btn btn-two">Reach me</a>
             </div>
             <img src="./components/owner image.jpg" alt="Owner's picture">
             <div class="icon-wrapper">
-                <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/emmanuel-tochukwu-a447b9273/"><ion-icon name="logo-linkedin"></ion-icon></a>
                 <a href=""><ion-icon name="logo-github"></ion-icon></a>
                 <a href=""><ion-icon name="logo-instagram"></ion-icon></a>
                 <a href=""><ion-icon name="logo-twitter"></ion-icon></a>
@@ -39,7 +44,7 @@
             </div>
         </div>
     </section>
-    <section class="about-section">
+    <section id="about-section" class="about-section">
         <div class="about-content">
             <h5>Get to know</h5>
             <h2>About Me</h2>
@@ -67,7 +72,7 @@
                     </div>
                     <div class="about-text">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem similique asperiores vel eligendi saepe omnis, exercitationem delectus suscipit possimus odio odit explicabo natus debitis officiis cum provident nostrum illum? Qui!</p> 
-                        <a href="" type="button" class="btn btn-two">  Let's Talk   </a>
+                        <a href="" type="button" class="btn btn-two">Let's Talk</a>
                     </div>
                 </div>
             </div>
@@ -144,7 +149,7 @@
         </div>
     </section>
     <!-- services section services section services section  -->
-    <section class="services-section">
+    <section id="services-section" class="services-section">
         <ion-icon name="arrow-redo-circle-sharp"></ion-icon>
         <h5>What I Offer</h5>
         <h2>Services</h2>
@@ -181,77 +186,152 @@
                     <span><ion-icon name="arrow-forward-circle-outline"></ion-icon> <h5>Lorem ipsum dolor sit amet consectetur.</h5></span>
                     <span><ion-icon name="arrow-forward-circle-outline"></ion-icon> <h5>Lorem ipsum dolor sit amet consectetur.</h5></span>
                     <span><ion-icon name="arrow-forward-circle-outline"></ion-icon> <h5>Lorem ipsum dolor sit amet consectetur.</h5></span>
+                    <span><ion-icon name="arrow-forward-circle-outline"></ion-icon> <h5>Lorem ipsum dolor sit amet consectetur.</h5></span>
                     </div>
                     </div>
         </div>
         
     </section>
-    <section>
-       
-          <ul id="menu" data-animation="diagonal">
-            <li>
-              <a href="#0">
-                About
-                <span class="border border-top"></span>
-                <span class="border border-right"></span>
-                <span class="border border-bottom"></span>
-                <span class="border border-left"></span>
-              </a>
-            </li>
-            <li>
-              <a href="#0">
-                Projects
-                <span class="border border-top"></span>
-                <span class="border border-right"></span>
-                <span class="border border-bottom"></span>
-                <span class="border border-left"></span>
-              </a>
-            </li>
-            <li>
-              <a href="#0">
-                Clients
-                <span class="border border-top"></span>
-                <span class="border border-right"></span>
-                <span class="border border-bottom"></span>
-                <span class="border border-left"></span>
-              </a>
-            </li>
-            <li>
-              <a href="#0">
-                Contact
-                <span class="border border-top"></span>
-                <span class="border border-right"></span>
-                <span class="border border-bottom"></span>
-                <span class="border border-left"></span>
-              </a>
-            </li>
-          </ul>
-          <footer class="page-footer">
-            <small>Made with <span>❤</span> by <a href="http://georgemartsoukos.com/" target="_blank">George Martsoukos</a>
-            </small>
-          </footer>
+    <section id="project-section" class="project-section">
+        <ion-icon name="arrow-redo-circle-sharp"></ion-icon>
+        <h5>My</h5>
+        <h2>Projects</h2>
+        <div class="project-card-wrapper">
+            <div class="project-card">
+                <img src="./components/br-architect.png" alt="">
+                <h5>BR Architect </h5>
+                <div class="btn-wrapper project-btn-wrapper">
+                    <a href="" type="button" class="btn">Github</a>
+                    <a href="" type="button" class="btn btn-two">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./components/deftify-project.png" alt="">
+                <h5>Deftify - a web 3 cryptocurrency program</h5>
+                <div class="btn-wrapper project-btn-wrapper">
+                    <a href="" type="button" class="btn">Github</a>
+                    <a href="" type="button" class="btn btn-two">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./components/Designer's-portifolio.png" alt="">
+                <h5>A UI/UX DESIGNER Portifolio and chat space </h5>
+                <div class="btn-wrapper project-btn-wrapper">
+                    <a href="" type="button" class="btn">Github</a>
+                    <a href="" type="button" class="btn btn-two">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./components/drum kit.png" alt="">
+                <h5>BR Architect </h5>
+                <div class="btn-wrapper project-btn-wrapper">
+                    <a href="" type="button" class="btn">Github</a>
+                    <a href="" type="button" class="btn btn-two">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./components/form-validdation.png" alt="">
+                <h5>This is a form validation system </h5>
+                <div class="btn-wrapper project-btn-wrapper">
+                    <a href="" type="button" class="btn">Github</a>
+                    <a href="" type="button" class="btn btn-two">Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="./components/tindo.png" alt="">
+                <h5>Tindog - A system where you get your dream Dog</h5>
+                <div class="btn-wrapper project-btn-wrapper">
+                    <a href="" type="button" class="btn">Github</a>
+                    <a href="" type="button" class="btn btn-two">Live Demo</a>
+                </div>
+            </div>
+        </div>
     </section>
-    <section>
-
+    
+    <section id="testimonial-section" class="testimonial-section">
+        <ion-icon name="arrow-redo-circle-sharp"></ion-icon>
+        <h5>Review from Clients</h5>
+        <h2>Testimonials</h2>
+        <div class="testimonial-card">
+            <img src="./components/emmy profile.jpg" alt="">
+            <h5>Jeremiah Bamishaye</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+              aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
+              architecto consectetur repellendus minima? Fugiat dolor
+              ab necessitatibus, ex tempore iusto.</p>
+        </div>
+        <div class="testimonial-card">
+            <img src="./components/emmy profile.jpg" alt="">
+            <h5>Jeremiah Bamishaye</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+              aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
+              architecto consectetur repellendus minima? Fugiat dolor
+              ab necessitatibus, ex tempore iusto.</p>
+        </div>
+        <div class="testimonial-card">
+            <img src="./components/emmy profile.jpg" alt="">
+            <h5>Jeremiah Bamishaye</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+              aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
+              architecto consectetur repellendus minima? Fugiat dolor
+              ab necessitatibus, ex tempore iusto.</p>
+        </div>
     </section>
-    <section>
+    <section id="contact-section" class="contact-section">
+        <ion-icon name="arrow-redo-circle-sharp"></ion-icon>
+        <h5>Get in Touch</h5>
+        <h2>Contact Me</h2>
+        <div class="contact-wrapper">
+            <div>
+                <div class="contact-card">
+                    <ion-icon name="arrow-redo-circle-sharp"></ion-icon>
+                    <h4>Email</h4>
+                    <h5>tochukwuemmanuel690@gmail.com</h5>
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">Send a message</a>
+                </div>
+                <div class="contact-card">
+                    <ion-icon name="arrow-redo-circle-sharp"></ion-icon>
+                    <h4>Instagram</h4>
+                    <h5>Teeboi268</h5>
+                    <a href="">Send a message</a>
+                </div>
+                <div class="contact-card">
+        <ion-icon name="arrow-redo-circle-sharp"></ion-icon>
+                    <h4>Whatsapp</h4>
+                    <h5>+234 9126 1956 88</h5>
+                    <a href="">Send a message</a>
+                </div>
+            </div>
+            <form action="mailto:" class="contact-form">
+                <input type="text" placeholder="Your Full Name">
+                <input type="email" placeholder="Your Email">
+                <textarea name="" id="class-message" placeholder="Your Message"></textarea>
+                <!-- <input type="text" placeholder="Your Message" class="class-message"> -->
+                <a href="" type="button" class="btn btn-two">Send Message</a>
+            </form>
 
+        </div>
     </section>
 
     <!-- /* ============// Scripting links \\============== */ -->
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="index.js"></script>
 </body>
-<footern id="footer">
+<footer id="footer">
+    <h2>Affix</h2>
     <ul>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
-        <a href=""></a>
+        <a href="#home-section" class="footer-a">Home</a>
+        <a href="#about-section" class="footer-a">About</a>
+        <a href="#portifolio-section" class="footer-a">Experience</a>
+        <a href="#services-section" class="footer-a">Services</a>
+        <a href="#project-section" class="footer-a">Projects</a>
+        <a href="#testimonial-section" class="footer-a">Testimonials</a>
+        <a href="#contact-section" class="footer-a">Contact</a>
     </ul>
+
+    <p>©️ Tochukwu Emmanuel, <span id="demo"></span> All Right Reserved</p>
 
 </footer>
 </html>

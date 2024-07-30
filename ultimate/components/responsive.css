@@ -9,18 +9,34 @@
         padding: 35% 2%;
     }
     .btn-wrapper {
-        margin: 10% 25%;
+        margin:5% 25%;
     }
     .btn {
-        font-size: smaller;
-        padding: 3%;
+        font-size: small;
+        padding: 0 1.5%; 
     }
     .home-content > img {
         height: 50vh;
         margin: 3%;
     }
+    .home-content > 
+    h5, h4 {
+        font-size: small;
+    }
+    .home-content > h1 {
+        font-size: medium;
+    }
     .icon-wrapper{
         display: none;
+    }
+/* ============// section section \\============== */
+    .about-grid {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .about-card {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
     }
     .portifolio-section {
         padding: 2%;
@@ -38,38 +54,68 @@
     }
     .skills-card-wrapper, 
     .about-grid,
-    .services-wrapper {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .about-card {
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .about-img-card{
+    /* .about-img-card > img {
         height: 45vh;
-        margin: 2% 20%;
-    }
-    .about-img-card > img {
-        height: 45vh;
-        /* justify-content: center;
-        align-content: center; */
-    }
+    } */
     li > span {
         display: flex;
         gap: 15%;
     }
-
+    .project-card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .testimonial-card {
+        background: var(--color-card);
+        padding: 3% 7%;
+        /* margin: 3% 12%; */
+        font-size: small;
+      }
 }
+
+
+
+/* ============// Ipads, ipadsmini \\============== */
 @media screen and (max-width: 900px) {
     .skills-card-wrapper, .about-grid {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap: 2%;
     }
 }
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1900px) {
+
     .home-content > img {
     margin: 3% 30%;
+    }
+    .portifolio-section{
+        padding: 1% 50%;
+    }
+}
+@media screen and (max-width: 2400px) {
+    
+    .home-content > img {
+    margin: 3% 30%;
+    }
+
+    .card-one {
+        padding: 85%;
+        padding: 15% 10%;
+        margin: 3% 0;
+    }
+    .card-one > h4 {
+        margin: 3% 0;
+        font-size: large;
+    }
+    .card-one > h5 {
+        color: var(--color-light);
+        font-size: small;
+    }
+    .card-one > ion-icon {
+        font-size: 150%;
+        color: var(--color-primary);
+    }
+    .portifolio-section{
+        padding: 1% 20%;
     }
 }

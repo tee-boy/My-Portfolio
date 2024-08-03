@@ -346,6 +346,10 @@ li > span {
 .testimonial-section {
   padding: 5%;
 }
+.star {
+  color: var(--color-light);
+  border: 2px solid var(--hr-color);
+}
 .project-card-wrapper {
   display: grid;
   grid-template-columns: repeat(3,1fr);

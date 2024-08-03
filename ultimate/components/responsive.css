@@ -1,3 +1,109 @@
+@media screen and (max-width: 400px) {
+    h5,
+    h2,
+    h1 {
+        font-weight: 500;
+    }
+/* ============// section section \\============== */
+    section {
+        padding: 35% 2%;
+    }
+   .home-content >
+   .btn-wrapper {
+        margin: 5% 24.5%;
+    }
+   .home-content >
+   .btn {
+        margin: 0 -10%;
+    }
+    .home-content > img {
+        height: 5vh;
+        margin: 3% -11%;
+    }
+    .home-content > 
+    h5, h4 {
+        font-size: smaller;
+    }
+    .home-content > h1 {
+        font-size: small;
+    }
+    .icon-wrapper{
+        display: none;
+    }
+/* ============// section section \\============== */
+    #about-grid,
+    #menu,
+    .services-wrapper,
+    .contact-wrapper
+    {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* display: block; */
+        padding: 0 1%;
+    }
+    .about-card {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .about-img-card > img,
+    .about-img-card{
+        height: 40vh;
+    }  
+    .about-img-card > img{
+        transform: rotate(7deg);
+    }  
+    .about-img-card{
+        margin: 3% 6%;
+    }
+    .about-text{
+        text-align: right;
+        padding: 2%;
+    }
+    .skills-card{
+        width: 96%;
+        margin: 0 2%;
+    }
+    .portifolio-section {
+        padding: 2%;
+    }
+    /* .about-section {
+        padding: 5% 1%;
+    } */
+    .card-one > ion-icon {
+        font-size: 200%;
+        color: var(--color-primary);
+    }
+    .skills-card-wrapper, 
+    .about-grid,
+    /* .about-img-card > img {
+        height: 45vh;
+    } */
+    li > span {
+        display: flex;
+        gap: 15%;
+    }
+    .skills-card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .project-card-wrapper {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .testimonial-card {
+        background: var(--color-card);
+        padding: 3% 7%;
+        /* margin: 3% 12%; */
+        font-size: small;
+      }
+      .contact-wrapper > 
+      div {
+        margin: 0 7%;
+      }
+      footer {
+        font-size: smaller;
+      }
+}
 @media screen and (max-width: 700px) {
     h5,
     h2,

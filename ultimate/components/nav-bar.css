@@ -7,6 +7,7 @@ nav {
     bottom: 100vh;
     width: max-content;
     height: max-content;
+    display: inline;
 }
 .nav-list {
     border-radius: 100%;

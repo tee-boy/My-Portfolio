@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="animation.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
 </head>
 <body>
     <div class="line"
@@ -251,30 +255,53 @@
         <!-- <ion-icon name="arrow-redo-circle-sharp"></ion-icon> -->
         <h5>Review from Clients</h5>
         <h2>Testimonials</h2>
-        <div class="testimonial-card">
-            <img src="./components/emmy profile.jpg" alt="">
-            <h5>Jeremiah Bamishaye</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-              aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
-              architecto consectetur repellendus minima? Fugiat dolor
-              ab necessitatibus, ex tempore iusto.</p>
-              <h3 class="star"> ⭐ ⭐ ⭐ ⭐ ⭐</h3>
-        </div>
-        <div class="testimonial-card">
-            <img src="./components/emmy profile.jpg" alt="">
-            <h5>Jeremiah Bamishaye</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-              aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
-              architecto consectetur repellendus minima? Fugiat dolor
-              ab necessitatibus, ex tempore iusto.</p>
-        </div>
-        <div class="testimonial-card">
-            <img src="./components/emmy profile.jpg" alt="">
-            <h5>Jeremiah Bamishaye</h5>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
-              aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
-              architecto consectetur repellendus minima? Fugiat dolor
-              ab necessitatibus, ex tempore iusto.</p>
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div class="testimonial-card swiper-container">
+                        <img src="./components/emmy profile.jpg" alt="">
+                        <h5>Jeremiah Bamishaye</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+                          aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
+                          architecto consectetur repellendus minima? Fugiat dolor
+                          ab necessitatibus, ex tempore iusto.</p>
+                          <h3 class="star"> ⭐ ⭐ ⭐ ⭐ ⭐</h3>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-card swiper-container">
+                        <img src="./components/emmy profile.jpg" alt="">
+                        <h5>Jeremiah Bamishaye</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+                          aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
+                          architecto consectetur repellendus minima? Fugiat dolor
+                          ab necessitatibus, ex tempore iusto.</p>
+                    </div>
+                </div>
+                  <div class="swiper-slide">
+                    <div class="testimonial-card swiper-container">
+                        <img src="./components/emmy profile.jpg" alt="">
+                        <h5>Jeremiah Bamishaye</h5>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus
+                          aliquid doloribus eligendi cum, animi placeat nisi illo modi autem 
+                          architecto consectetur repellendus minima? Fugiat dolor
+                          ab necessitatibus, ex tempore iusto.</p>
+                        </div>
+                </div>
+                  ...
+                
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+              
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+              </div>
         </div>
     </section>
     <section id="contact-section" class="contact-section">
@@ -306,16 +333,17 @@
                 <!-- <input type="text" placeholder="Your Message" class="class-message"> -->
                 <a href="" type="button" class="btn btn-two">Send Message</a>
             </form>
-
         </div>
     </section>
 
-    <!-- /* ============// Scripting links \\============== */ -->
+<!-- /* ============// Scripting links \\============== */ -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="index.js"></script>
 </body>
+
 <footer id="footer">
     <h2>Affix</h2>
     <ul>
